@@ -1,0 +1,218 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  overflow-x: hidden;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 2;
+}
+
+/* Sections */
+
+.colored-section{
+
+}
+
+.white-section{
+
+}
+
+/*                 CLASS & ID SELECTORS                 */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 17%;
+  transform: rotate(20deg);
+  position: absolute; /*It wont be in html flow anymore, so feature section will be on top of it.*/
+  left: 62%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align:left;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Features Section  */
+.custom-icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.custom-icon:hover {
+  color: #ff4c68;
+  transition: 0.3s;
+}
+
+
+.feature-box {
+  padding: 5%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+   font-size: 3rem;
+   line-height:2;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+}
+
+.non-priority{
+  text-decoration: line-through;
+}
+
+.header-pricing {
+  margin: 5% 0 1%;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cards {
+  padding: 3% 8%;
+}
+
+.card-header{
+  font-size: 1.5rem;
+  background-color: #fff;
+  border-bottom: 0;
+}
+
+.card-body{
+  height: 25rem;
+}
+
+.card-body:hover {
+  background-color:#f7f7f7;
+  transition: 0.7s;
+}
+
+.btn-usual{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 5%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+  padding: 2% 15%;
+}
+
+.social-icon {
+  margin: 3% 2%;
+  color: #8F8F8F;
+  transition: 0.3s;
+}
+
+.social-icon:hover{
+  color: #FF4C68;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+    padding-top: 3%;
+  }
+}
